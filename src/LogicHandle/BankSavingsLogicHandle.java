@@ -56,8 +56,7 @@ public class BankSavingsLogicHandle {
         Customer customer = null;
         while (true) {
             int customerID = new Scanner(System.in).nextInt();
-
-            // tìm xem trong thư viên có bạn đọc nào có id khớp với ID vừa nhập không
+            
             customer = customerLogicHandle.searchReaderById(customerID);
             if (customer != null) {
                 break;

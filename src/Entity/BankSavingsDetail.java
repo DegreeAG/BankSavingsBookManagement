@@ -3,11 +3,11 @@ package Entity;
 public class BankSavingsDetail {
 
     private Bank bank;
-    private int quantity;
+    private double amount;
 
-    public BankSavingsDetail(Bank bank, int quantity) {
+    public BankSavingsDetail(Bank bank, double amount) {
         this.bank = bank;
-        this.quantity = quantity;
+        this.amount = amount;
     }
 
     public Bank getBank() {
@@ -18,19 +18,19 @@ public class BankSavingsDetail {
         this.bank = bank;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public double getAmount() {
+        return amount;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setAmount(double amount) {
+        this.amount = amount;
     }
 
     @Override
     public String toString() {
         return "BankSavingsDetail{" +
                 "bank=" + bank +
-                ", quantity=" + quantity +
+                ", amount=" + amount +
                 '}';
     }
 }

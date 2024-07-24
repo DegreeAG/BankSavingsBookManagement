@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb7b8336-f07b-43e1-9ccf-58d03ad32ce3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BankSavingsBookManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constant/CustomerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/BankSavings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/BankSavingsDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicHandle/BankLogicHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicHandle/BankSavingsLogicHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicHandle/CustomerLogicHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicHandle/MenuLogicHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/BankSavingsDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/BankSavingsDetail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +25,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jdp2kSOYYsjhIYEZZVkdmKcbdS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
