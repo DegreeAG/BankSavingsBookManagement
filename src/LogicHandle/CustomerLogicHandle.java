@@ -56,7 +56,7 @@ public class CustomerLogicHandle {
 
     }
 
-    public Customer searchReaderById(int customerID) {
+    public Customer searchCustomerById(int customerID) {
         for (int j = 0; j < customers.length; j++) {
             if (customers[j] != null && customerID == customers[j].getId()) {
                 return customers[j];

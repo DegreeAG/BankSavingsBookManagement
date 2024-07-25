@@ -26,6 +26,11 @@ public class BankSavingsDetail {
         this.amount = amount;
     }
 
+    public void checkBankSavingsDetail () {
+
+    }
+
+
     @Override
     public String toString() {
         return "BankSavingsDetail{" +

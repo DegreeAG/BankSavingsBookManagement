@@ -31,6 +31,8 @@ public class BankSavings {
         this.totalQuantity = totalQuantity;
     }
 
+
+
     public Customer getCustomer() {
         return customer;
     }

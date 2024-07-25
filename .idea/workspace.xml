@@ -7,7 +7,11 @@
     <list default="true" id="fb7b8336-f07b-43e1-9ccf-58d03ad32ce3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/BankSavings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/BankSavings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/BankSavingsDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/BankSavingsDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicHandle/BankLogicHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicHandle/BankLogicHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicHandle/BankSavingsLogicHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicHandle/BankSavingsLogicHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicHandle/CustomerLogicHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicHandle/CustomerLogicHandle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
