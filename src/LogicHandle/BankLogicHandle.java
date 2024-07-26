@@ -59,4 +59,7 @@ public class BankLogicHandle {
             System.out.println(banks[i]);
         }
     }
+    public int getBanksLength() {
+        return banks.length;
+    }
 }

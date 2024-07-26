@@ -17,6 +17,7 @@ public class BankSavingsLogicHandle {
     private final CustomerLogicHandle customerLogicHandle;
 
 
+
     public BankSavingsLogicHandle(BankLogicHandle bankLogicHandle, CustomerLogicHandle customerLogicHandle) {
         this.bankLogicHandle = bankLogicHandle;
         this.customerLogicHandle = customerLogicHandle;
@@ -47,6 +48,22 @@ public class BankSavingsLogicHandle {
             BankSavingsDetail[] details = declareBankSavingsBookInfo();
 
         }
+    }
+
+    public Customer queryCustomer() {
+        Customer customer = null;
+        while (true) {
+            int customerID = new Scanner(System.in).nextInt();
+            customer = customerLogicHandle.searchCustomerById(customerID);
+            if (customer != null) {
+                break;
+            }
+            System.out.print("Không có khách hàng nào có mã vừa nhâp, vui lòng nhập lại: ");
+        }
+        return customer;
+    }
+    public int getBankSavingLength() {
+        return getBankSavingLength();
     }
 
     private BankSavingsDetail[] declareBankSavingsBookInfo() {
@@ -88,7 +105,7 @@ public class BankSavingsLogicHandle {
         int bankQuantity = 0;
         while (true) {
             bankQuantity = new Scanner(System.in).nextInt();
-            if (bankQuantity > 0 && bankQuantity <= banks.length) {
+            if (bankQuantity > 0 && bankQuantity <= bankLogicHandle.getBanksLength()) {
                 break;
             }
             System.out.println("Số lượng ngân hàng không hợp lệ, vui lòng nhập lại: ");
@@ -115,11 +132,10 @@ public class BankSavingsLogicHandle {
                 }
                 System.out.println("Số lượng mở sổ tiết kiệm vượt quá giới hạn, khách hàng vui lòng lựa chọn mở từ 1 tới 5 sổ(tối đa): ");
             }
-            double amount;
+            double amount = 0;
             for (int j = 0; j < bankSavingsBook ; j++) {
                 System.out.println("Nhập số tiền gửi của sổ tiết kiệm thứ" + (j + 1));
                 amount = new Scanner(System.in).nextInt();
-                continue;
             }
             BankSavingsDetail detail = new BankSavingsDetail(bank, amount);
             details[count] = detail;
@@ -127,24 +143,8 @@ public class BankSavingsLogicHandle {
             }
         return details;
         }
-
     }
 
 
-    public Customer queryCustomer() {
-        Customer customer = null;
-        while (true) {
-            int customerID = new Scanner(System.in).nextInt();
-            customer = customerLogicHandle.searchCustomerById(customerID);
-            if (customer != null) {
-                break;
-            }
-            System.out.print("Không có khách hàng nào có mã vừa nhâp, vui lòng nhập lại: ");
-        }
-        return customer;
-    }
 
-    public int getBankSavingLength() {
-        return getBankSavingLength();
-    }
-}
+

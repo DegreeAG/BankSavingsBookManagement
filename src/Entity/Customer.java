@@ -32,7 +32,6 @@ public class Customer extends Person {
     }
 
 
-
     @Override
     public String toString() {
         return "Customer{" +
@@ -75,7 +74,5 @@ public class Customer extends Person {
                 this.setCustomerType(CustomerType.DN);
                 break;
         }
-
-
     }
 }
